@@ -4,4 +4,8 @@
 */
 
 -- Show location of external hdfs table
-show create table <table>
+show create table <table>;
+
+-- Show Column Header
+set hive.cli.print.header=true;
+
