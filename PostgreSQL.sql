@@ -25,3 +25,6 @@ Link: https://stackoverflow.com/questions/12316953/insert-text-with-single-quote
 -- Switch to another User
   sudo -i -u postgres #-i login -u username
   sudo -u postgres # Execute as another user
+
+# Importing CSV to PostgreSQL
+-- Link: http://www.postgresqltutorial.com/import-csv-file-into-posgresql-table/
