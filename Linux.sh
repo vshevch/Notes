@@ -8,3 +8,4 @@ sudo -u postgres # Execute as another user
 dpkg --list # List Installed Apps
 sudo apt-get --purge remove <app> # Remove and Purge app
 history # Show command history
+sudo netstat -plnt # Shows the active ports & programs
