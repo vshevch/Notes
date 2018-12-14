@@ -5,3 +5,5 @@
 -- Switch to another User
 sudo -i -u postgres #-i login -u username
 sudo -u postgres # Execute as another user
+dpkg --list # List Installed Apps
+sudo apt-get --purge remove <app> # Remove and Purge app
