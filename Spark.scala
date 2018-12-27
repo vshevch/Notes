@@ -11,4 +11,6 @@ val test = rdd.map(array => (array.slice(0,10) ++ array.slice(12,17),array(33)))
     ++ //<- used to put 2 arrays together
     array() //<- similar to python's List[7]
 
+//Take first column of the array
+val dm_loc = rdd.map(_(1)) //<- _ is short hand for x => x (python's lambda)
 
